@@ -54,3 +54,38 @@ public class Task_1 {
         }
     }
 }
+5) public static void main(String[] args) {
+             ArrayList<String> file = new ArrayList<String>();
+              file.add("bus");
+              file.add("car");
+              file.add("cycles");
+              // System.out.println(file);
+               file.clear();
+             }
+            }      
+6) public static void main(String[] args) {
+	        // Create a TreeMap to store employee ID and Name
+	        TreeMap<Integer, String> employeeMap = new TreeMap<>();
+
+	        // Add some random employee ID and Name pairs
+	        employeeMap.put(101, "John Doe");
+	        employeeMap.put(102, "Jane Smith");
+	        employeeMap.put(103, "Emily Johnson");
+	        employeeMap.put(104, "Michael Brown");
+	        employeeMap.put(105, "Linda Davis");
+	        System.out.println(employeeMap);
+	    }
+}
+7) 
+public static void main(String[] args) {
+	        // Create a List
+	        List<String> list = Arrays.asList("apple", "banana", "cherry");
+
+	        // Convert the List to an ArrayList
+	        ArrayList<String> arrayList = new ArrayList<>(list);
+
+	        // Print the ArrayList
+	        System.out.println(arrayList);
+	    }
+	}
+            
