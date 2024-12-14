@@ -12,4 +12,45 @@ public class Task_1 {
 		 }
 		 }
 }
-2) 
+2) public class A {
+    public static void main(String[] args) {
+        try {
+            int[][] a = new int[2][2];
+            // Fill the array with some values for demonstration purposes
+            a[0][0] = 1;
+            a[0][1] = 2;
+            a[1][0] = 3;
+            a[1][1] = 4;
+
+            // Printing the array elements
+            for (int i = 0; i < a.length; i++) {
+                for (int j = 0; j < a[i].length; j++) {
+                    System.out.print(a[i][j] + " ");
+                }
+                System.out.println();
+            }
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Array index out of bounds exception: " + e);
+        }
+    }
+}
+
+3) public class A {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("User input:");
+        String user = sc.nextLine();
+        
+        try {
+            int age = Integer.parseInt(user);  // Assuming user input should be converted to an integer
+            
+            if (age <= 100) {
+                System.out.println("Valid age");
+            } else {
+                System.out.println("Invalid age");
+            }
+        } catch (NumberFormatException e) {
+            System.out.println("Invalid input, please enter a valid number.");
+        }
+    }
+}
